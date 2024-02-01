@@ -1,0 +1,38 @@
+.contact li {
+    list-style: disc;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact h1 {
+    text-shadow: 5px 5px 8px #000;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 5rem;
+    margin-top: 100px;
+    margin-left: 78px;
+    position: relative;
+}
+
+.contact a {
+    color: #eee;
+    text-shadow: 5px 5px 8px #000;
+    /* text-decoration: underline; */
+ 
+}
+
+.contact a:hover {
+    color: orange;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(5px);
+}
